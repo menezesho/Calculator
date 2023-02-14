@@ -1,0 +1,111 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(340deg, blue, purple, pink);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.geral{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    flex-basis: 400px;
+    height: 580px;
+    padding: 40px 35px;
+}
+
+.visor{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 40px;
+    overflow: auto;
+    padding: 10px;
+    text-align: right;
+    width: 326px;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.botao{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 325, 0.01);
+    border-radius: 20px;
+    box-shadow: 0 4x 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 70px;
+}
+
+.botao:hover{
+    background-color: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.botao:active{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.botao:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 325, 0.01);
+    border-radius: 20px;
+    box-shadow: 0 4x 30px rgba(35, 35, 35, 0.1);
+    color: white;
+    background: rgb(165, 25, 165);
+}
+
+.botao:last-child:hover{
+    background-color: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.botao:last-child:active{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.duplo{
+    flex-basis: 152px;
+}
+
+.triplo{
+    flex-basis: 242px;
+}
